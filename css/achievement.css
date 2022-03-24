@@ -1,0 +1,75 @@
+/* Achievement Section */
+.achieve-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 640px;
+  width: 100%;
+  background-image: url("../assets/engin-akyurt-tJPrz7S-dsE-unsplash.png");
+}
+
+.dark-banner {
+  position: absolute;
+  right: 0;
+  height: 466px;
+  width: 72%;
+  background-color: black;
+}
+
+.award-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.achieve-title {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+  height: 356px;
+  padding: 20px;
+  border: 2px solid #fff;
+  z-index: 2;
+}
+
+.achieve-title h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  width: 261px;
+  text-align: right;
+}
+
+.white-banner {
+  background-color: #fff;
+  width: 20px;
+  height: 356px;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+.achieve-reward img {
+  height: 315px;
+}
+
+.social-wrapper {
+  position: absolute;
+  bottom: 22px;
+  right: 176.8px;
+  display: flex;
+  width: 545px;
+  justify-content: space-between;
+}
+
+.social-wrapper a img {
+  height: 40px;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
+}

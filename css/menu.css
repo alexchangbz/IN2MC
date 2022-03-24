@@ -1,0 +1,63 @@
+#nav-bg {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+.inactiveMenu {
+  display: none;
+}
+
+.activeMenu {
+  display: block;
+}
+
+.nav-section {
+  position: absolute;
+  z-index: 2;
+  right: 5%;
+  top: 100px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-section .nav-link:nth-child(2) {
+  margin-left: 60px;
+}
+
+.nav-section .nav-link:nth-child(3) {
+  margin-left: 120px;
+}
+
+.nav-section .nav-link:nth-child(4) {
+  margin-left: 180px;
+}
+
+.nav-section .nav-link:nth-child(5) {
+  margin-left: 240px;
+}
+
+.nav-section .nav-link:nth-child(6) {
+  margin-left: 300px;
+}
+
+.nav-link a {
+  display: block;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 2.6rem;
+  color: #000;
+  line-height: 5rem;
+}
+
+.nav-link a:hover {
+  color: #e50019;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav-line {
+  position: absolute;
+  right: 100px;
+  top: 500px;
+}

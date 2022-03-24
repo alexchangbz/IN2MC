@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1360px) {
+  /* CONTENT */
+  .content-img img,
+  .profile-img img {
+    margin: 10px 10px;
+    width: 200px;
+  }
+
+  .profile-img {
+    margin-top: 100px;
+  }
+
+  .introduction {
+    width: 60%;
+    min-height: 430px;
+  }
+
+  .introduction h1 {
+    font-size: 2rem;
+  }
+
+  .introduction p,
+  .lists ul li {
+    font-size: 12px;
+  }
+
+  /* ACHIEVEMENT */
+  .achieve-section {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 530px;
+  }
+
+  .dark-banner {
+    height: 300px;
+    top: 100px;
+  }
+
+  .achieve-title {
+    flex-direction: column;
+    height: 408px;
+    margin: 20px 0;
+  }
+
+  .white-banner {
+    height: 408px;
+  }
+
+  .achieve-title h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .achieve-reward {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .achieve-reward img {
+    margin: 0 10px;
+    height: 280px;
+  }
+
+  .social-wrapper {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin: 20px 0;
+  }
+
+  /* ACHIEVEMENT */
+
+  /* FOOTER */
+  .footer-wrapper {
+    padding: 10px 90px;
+  }
+
+  .row-data {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* background-color: blue; */
+  }
+  /* FOOTER */
+}

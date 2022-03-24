@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+  .logo {
+    padding: 30px 40px;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .brand-motto h2 {
+    font-size: 1.6rem;
+  }
+
+  .lists {
+    flex-direction: column;
+  }
+
+  /* ACHIEVEMENT */
+  .achieve-section {
+    height: 840px;
+  }
+
+  .dark-banner {
+    width: 40%;
+    height: 500px;
+  }
+
+  .achieve-title {
+    height: 650px;
+  }
+
+  .white-banner {
+    height: 650px;
+  }
+
+  .achieve-title h2 {
+    font-size: 18px;
+  }
+
+  .achieve-reward {
+    flex-direction: column;
+  }
+
+  .achieve-reward img {
+    margin: 10px 0;
+    height: 160px;
+  }
+
+  .social-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .social-wrapper button {
+    margin: 10px 0;
+  }
+  /* ACHIEVEMENT */
+}
