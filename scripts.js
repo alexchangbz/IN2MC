@@ -1,15 +1,3 @@
-// window.addEventListener('scroll', () => {
-//     console.log('Scrolled!')
-//     const posY = window.scrollY
-//     if (posY > 0) {
-//         const element = document.querySelector(".brand-section");
-//         element.classList.add("red");
-//     } else {
-//         const element = document.querySelector(".brand-section");
-//         element.classList.add("transparent");
-//     }
-// })
-
 $(window).scroll(function () {
     if (scrollY > 0) {
         $(".brand-section").css("background-color", "transparent");
